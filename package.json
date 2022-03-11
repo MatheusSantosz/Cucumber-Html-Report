@@ -1,0 +1,18 @@
+{
+  "name": "testes-e2e",
+  "version": "1.0.0",
+  "description": "metrics",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js & node ./report-config/generate-report.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "selenium-webdriver": "^4.1.1"
+  },
+  "dependencies": {
+    "multiple-cucumber-html-reporter": "^1.19.0"
+  }
+}

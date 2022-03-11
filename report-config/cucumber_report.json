@@ -1,0 +1,69 @@
+[
+  {
+    "description": "Como usuário\ndesejo fazer uma pesquisa no Google\npara ter conhecimento sobre determinado assunto",
+    "keyword": "Funcionalidade",
+    "name": "Realizar pesquisa no Google",
+    "line": 3,
+    "id": "realizar-pesquisa-no-google",
+    "tags": [
+      {
+        "name": "@pesquisaGoogle",
+        "line": 2
+      }
+    ],
+    "uri": "features\\pesquisa-google.feature",
+    "elements": [
+      {
+        "id": "realizar-pesquisa-no-google;visualizar-detalhes-de-uma-pesquisa",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Visualizar detalhes de uma pesquisa",
+        "tags": [
+          {
+            "name": "@pesquisaGoogle",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estou na página inicial do Google",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "escrevo no campo de pesquisa a palavra 'Wikipedia'",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "clico no botão de pesquisa",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devo visualizar uma página com os detalhes sobre a pesquisa",
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
